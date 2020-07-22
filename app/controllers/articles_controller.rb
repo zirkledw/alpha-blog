@@ -9,12 +9,35 @@ class ArticlesController < ApplicationController
   end
 
   def new
+    @article = Article.new
 
+  end
+
+  def edit
+    @article = Article.find(params[:id]) #just like in show
   end
 
   def create
-    render plain: params[:article]
+    @article = Article.new(params.require(:article).permit(:title, :description))
+
+    if @article.save
+      flash[:notice] = "Article was created sucessfully."
+      redirect_to @article #save is true
+    else
+      render 'new' #save is false
+    end
   end
 
+  def update
+    @article = Article.find(params[:id])
+    # use same whitelist
+    if @article.update(params.require(:article).permit(:title, :description))
+      flash[:notice] = "Article was updated sucessfully."
+      redirect_to @article
+    else
+      render 'edit'
+    end
+
+  end
 
 end
