@@ -5,8 +5,13 @@
     <title>Home Page</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1>Welcome to my AlphaBlog</h1>
     <h1>This is the home page.</h1>
-    <p><a href="/about">The about page?</a></p>
+    <p><a href="/about">This is an old fashioned HTML link to the about page.</a></p>
+    <p></p>
+    <%= link_to 'My Articles', articles_path %> |
+    <%= link_to 'The Rails link to the about page.', about_path %>
+    <p></p>
+
   </body>
 </html>
