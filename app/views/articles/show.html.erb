@@ -1,18 +1,22 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>Showing Articles Details</h1>
-    <p><strong>Title: <%= @article.title %> </strong></p>
-    <p><strong>Description: <%= @article.description %> </strong></p>
 
-    <p>
-      <%= link_to 'Edit', edit_article_path(@article) %> |
-      <%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: "Are you sure?" } %> |
-      <%= link_to 'Return to articles listing.', articles_path %>
-    </p>
-  </body>
-</html>
+  <h2 class="text-center mt-4"><%= @article.title %></h2>
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-8 mt-4">
+        <div class="card text-center shadow-lg mb-5 bg-white rounded">
+          <div class="card-header font-italic">
+            by USER NAME
+          </div>
+          <div class="card-body">
+            <div class="card-text text-left"><%= simple_format(@article.description) %></div>
+            <button type="button" class="btn btn-outline-info"><%= link_to 'Edit', edit_article_path(@article), class: "text-info" %></button>
+            <button type="button" class="btn btn-outline-danger"><%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: "Are you sure?" }, class: "text-danger" %></button>
+          </div>
+          <div class="card-footer text-muted">
+            <small>Created <%= time_ago_in_words(@article.created_at) %> ago,
+              last edited <%= time_ago_in_words(@article.updated_at) %> ago.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
