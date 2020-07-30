@@ -39,7 +39,8 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-  background-color: grey;
+  background-color: lightgrey;
+  // background: linear-gradient(to right, lightgrey, white);
 }
 
 #sticky-footer {
@@ -48,7 +49,7 @@ body {
 
 /* Other Classes for Page Styling */
 
-body {
+/* body {
   background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
-}
+  background: linear-gradient(to right, lightgrey, white);
+} */
