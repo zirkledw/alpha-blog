@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>Create a New Article</h1>
 
-    <%= form_with scope: :article, url: articles_path, local: true do |f| %>
-
-      <p>
-        <%= f.label :title %><br/>
-        <%= f.text_field :title %>
-      </p>
-      <p>
-        <%= f.label :description %><br/>
-        <%= f.text_area :description %>
-      </p>
-
-      <p>
-        <%= f.submit %>
-
-      </p>
-
-    <% end %>
-  </body>
-</html>
+  <h1 class="text-center mt-4">Create a New Article</h1>
+  <%= render 'form' %>
