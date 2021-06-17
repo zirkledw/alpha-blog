@@ -2562,15 +2562,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.488:
-<<<<<<< HEAD
-  version "1.3.502"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.502.tgz#6a55e993ef60a01fbdc2152ef5e47ee00c885c98"
-  integrity sha512-TIeXOaHAvfP7FemGUtAJxStmOc1YFGWFNqdey/4Nk41L9b1nMmDVDGNMIWhZJvOfJxix6Cv5FGEnBK+yvw3UTg==
-=======
   version "1.3.505"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.505.tgz#0e55edbdfc13700b6742a73c81c0af7d0d71364f"
   integrity sha512-Aunrp3HWtmdiJLIl+IPSFtEvJ/4Q9a3eKaxmzCthaZF1gbTbpHUTCU2zOVnFPH7r/AD7zQXyuFidYXzSHXBdsw==
->>>>>>> a7c260874c6c8a1632becd9342a6746b211e626a
 
 elliptic@^6.0.0, elliptic@^6.5.2:
   version "6.5.3"
@@ -5738,9 +5732,9 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     uniq "^1.0.1"
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.32, postcss@^7.0.5, postcss@^7.0.6:
-  version "7.0.32"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.32.tgz#4310d6ee347053da3433db2be492883d62cec59d"
-  integrity sha512-03eXong5NLnNCD05xscnGKGDZ98CyzoqPSMjOe6SuoQY7Z2hIj0Ld1g/O/UQRuOle2aRtiIRDg9tDcTGAkLfKw==
+  version "7.0.36"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
+  integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -5992,15 +5986,9 @@ regenerate@^1.4.0:
   integrity sha512-j2+C8+NtXQgEKWk49MMP5P/u2GhnahTtVkRIHr5R5lVRlbKvmQ+oS+A5aLKWp2ma5VkT8sh6v+v4hbH0YHR66A==
 
 regenerator-runtime@^0.13.3, regenerator-runtime@^0.13.4:
-<<<<<<< HEAD
-  version "0.13.6"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.6.tgz#d236043c46ffab2968c1ef651803d8acdea8ed65"
-  integrity sha512-GmwlGiazQEbOwQWDdbbaP10i15pGtScYWLbMZuu+RKRz0cZ+g8IUONazBnaZqe7j1670IV1HgE4/8iy7CQPf4Q==
-=======
   version "0.13.7"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
   integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
->>>>>>> a7c260874c6c8a1632becd9342a6746b211e626a
 
 regenerator-transform@^0.14.2:
   version "0.14.5"
